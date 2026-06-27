@@ -80,6 +80,34 @@
 }
 
 /* =========================
+   Works Note
+   作品補充說明區塊
+========================= */
+
+.works-note-section {
+  padding: 72px 0 0;
+  background-color: var(--color-white);
+}
+
+.works-note {
+  max-width: 760px;
+  padding: 2rem;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-light);
+}
+
+.works-note h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.works-note p {
+  color: var(--color-gray);
+  margin-bottom: 0;
+}
+
+/* =========================
    RWD for Cosplay Page
 ========================= */
 
