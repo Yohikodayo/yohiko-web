@@ -16,8 +16,6 @@ async function includeHTML(targetSelector, filePath) {
 		const html = await response.text();
 
 		targetElement.innerHTML = html;
-
-		console.log(`${filePath} 載入完成`);
 	} catch (error) {
 		console.error(error);
 	}
