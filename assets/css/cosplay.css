@@ -1,82 +1,59 @@
 /* =========================
-   Page Hero
-========================= */
-
-.page-hero {
-  padding: 180px 0 100px;
-  background-color: var(--color-light);
-}
-
-.page-title {
-  font-size: clamp(3rem, 8vw, 7rem);
-  font-weight: 900;
-  line-height: 1.05;
-  letter-spacing: 0.04em;
-}
-
-.page-desc {
-  max-width: 760px;
-  color: var(--color-gray);
-  font-size: 1.05rem;
-  margin-top: 1.5rem;
-}
-
-/* =========================
    Cosplay Gallery Card
 ========================= */
 
 .cosplay-card {
-  height: 100%;
-  background-color: var(--color-white);
-  border: 1px solid var(--color-border);
-  overflow: hidden;
-  transition: all 0.3s ease;
+	height: 100%;
+	background-color: var(--color-white);
+	border: 1px solid var(--color-border);
+	overflow: hidden;
+	transition: all 0.3s ease;
 }
 
 .cosplay-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.08);
+	transform: translateY(-6px);
+	box-shadow: 0 24px 50px rgba(0, 0, 0, 0.08);
 }
 
 .cosplay-card-image {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: center center;
+	width: 100%;
+	aspect-ratio: 4 / 5;
+	object-fit: cover;
+	object-position: center center;
 }
 
 .cosplay-card-body {
-  padding: 1.5rem;
+	padding: 1.5rem;
 }
 
 .cosplay-card-title {
-  font-size: 1.35rem;
-  font-weight: 800;
-  margin-bottom: 1.25rem;
+	font-size: 1.35rem;
+	font-weight: 800;
+	margin-bottom: 1.25rem;
 }
 
 .cosplay-meta {
-  margin: 0;
+	margin: 0;
 }
 
 .cosplay-meta div {
-  padding: 0.8rem 0;
-  border-top: 1px solid var(--color-border);
+	padding: 0.8rem 0;
+	border-top: 1px solid var(--color-border);
 }
 
 .cosplay-meta dt {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-gray);
-  margin-bottom: 0.25rem;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--color-gray);
+	margin-bottom: 0.25rem;
 }
 
 .cosplay-meta dd {
-  margin: 0;
-  font-size: 0.95rem;
-  color: var(--color-dark);
+	margin: 0;
+	font-size: 0.95rem;
+	color: var(--color-dark);
 }
 
 /* =========================
@@ -85,48 +62,37 @@
 ========================= */
 
 .works-note-section {
-  padding: 72px 0 0;
-  background-color: var(--color-white);
+	padding: 72px 0 0;
+	background-color: var(--color-white);
 }
 
 .works-note {
-  max-width: 760px;
-  padding: 2rem;
-  border: 1px solid var(--color-border);
-  background-color: var(--color-light);
+	max-width: 760px;
+	padding: 2rem;
+	border: 1px solid var(--color-border);
+	background-color: var(--color-light);
 }
 
 .works-note h2 {
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
-  font-weight: 900;
-  margin-bottom: 1rem;
+	font-size: clamp(1.6rem, 3vw, 2.4rem);
+	font-weight: 900;
+	margin-bottom: 1rem;
 }
 
 .works-note p {
-  color: var(--color-gray);
-  margin-bottom: 0;
+	color: var(--color-gray);
+	margin-bottom: 0;
 }
 
 /* =========================
    RWD for Cosplay Page
 ========================= */
-
-@media (max-width: 991.98px) {
-  .page-hero {
-    padding: 150px 0 80px;
-  }
-}
-
 @media (max-width: 575.98px) {
-  .page-hero {
-    padding: 130px 0 64px;
-  }
+	.cosplay-card-body {
+		padding: 1.25rem;
+	}
 
-  .cosplay-card-body {
-    padding: 1.25rem;
-  }
-
-  .cosplay-card-title {
-    font-size: 1.2rem;
-  }
+	.cosplay-card-title {
+		font-size: 1.2rem;
+	}
 }

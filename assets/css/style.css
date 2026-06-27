@@ -156,6 +156,30 @@ a {
 
 
 /* =========================
+   Page Hero
+========================= */
+
+.page-hero {
+	padding: 180px 0 100px;
+	background-color: var(--color-light);
+}
+
+.page-title {
+	font-size: clamp(3rem, 8vw, 7rem);
+	font-weight: 900;
+	line-height: 1.05;
+	letter-spacing: 0.04em;
+}
+
+.page-desc {
+	max-width: 760px;
+	color: var(--color-gray);
+	font-size: 1.05rem;
+	margin-top: 1.5rem;
+}
+
+
+/* =========================
    Work Cards
 ========================= */
 
@@ -299,6 +323,10 @@ a {
 		padding: 0.75rem 0;
 	}
 
+	.page-hero {
+		padding: 150px 0 80px;
+	}
+
 	.hero-section {
 		padding-top: 96px;
 	}
@@ -314,6 +342,10 @@ a {
 
 /* 手機 */
 @media (max-width: 575.98px) {
+	.page-hero {
+		padding: 130px 0 64px;
+	}
+
 	.hero-title {
 		font-size: 3.2rem;
 	}
