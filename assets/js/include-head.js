@@ -6,7 +6,7 @@
 	const request = new XMLHttpRequest();
 
 	// false 代表同步載入，確保 CSS 儘早載入
-	request.open("GET", "./assets/components/head.html", false);
+	request.open("GET", "../components/head.html", false);
 
 	try {
 		request.send();
