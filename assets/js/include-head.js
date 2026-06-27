@@ -25,8 +25,6 @@
 		Array.from(doc.head.children).forEach((node) => {
 			document.head.appendChild(node.cloneNode(true));
 		});
-
-		console.log("components/head.html 載入完成");
 	} catch (error) {
 		console.error("components/head.html 載入錯誤：", error);
 	}
